@@ -1,0 +1,392 @@
+
+
+@media(min-width: 1100px){
+  .header{
+    height: 67.675px;
+    background-color: white;
+    box-shadow: 2px 1px 2px rgb(238, 238, 238);
+    display: flex;
+    flex: 1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: inter, serif;
+    font-size: 16px;
+    z-index: 200;
+  }
+  .used-header{
+    display: flex;
+    width: 1100px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .left-section{
+    display: flex;
+    width: 432.663px;
+    align-items: center;
+    
+  }
+  .logo{
+    
+    max-width: 100%;
+    max-height: 17px;
+    cursor: pointer;
+    
+  }
+  .right-section{
+    display: flex;
+    width: 623.325px;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .header-content{
+    padding: 20px;
+    
+  }
+  .right-section a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 14.4px;
+  }
+  .right-section a:hover{
+    color: rgb(56, 126, 209);
+  }
+  
+  .mb{
+    width: 18px;
+    height: 2px;
+    background-color: rgb(66, 66, 66);
+    margin: 2.1px 0;
+  }
+  .menu{
+    padding-left: 15px;
+    justify-content: center;
+    cursor: pointer;
+    display: flex ;
+    
+    flex-direction: column;
+  }
+  .menu .tooltip{
+    position: absolute;
+    background-color: #fff9f9;
+    color: black;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -4px;
+    right: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .menu:hover .tooltip{
+    opacity: 1;
+  }
+  
+  
+}
+
+@media(min-width: 960px) and (max-width: 1100px){
+  .header{
+    height: 67.675px;
+    background-color: white;
+    box-shadow: 2px 1px 2px rgb(238, 238, 238);
+    
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    
+    font-family: inter, serif;
+    font-size: 16px;
+    z-index: 200;
+  }
+  .used-header{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-shrink: 1;
+    height: 67.675px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .left-section{
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    
+  }
+  .logo{
+    
+    max-width: 100%;
+    max-height: 17px;
+    cursor: pointer;
+    
+  }
+  .right-section{
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .header-content{
+    padding: 20px;
+    
+  }
+  .right-section a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 14.4px;
+  }
+  .right-section a:hover{
+    color: rgb(56, 126, 209);
+  }
+  
+  .mb{
+    width: 18px;
+    height: 2px;
+    background-color: rgb(66, 66, 66);
+    margin: 2.1px 0;
+  }
+  .menu{
+    padding-left: 15px;
+    justify-content: center;
+    cursor: pointer;
+    display: flex ;
+    
+    flex-direction: column;
+  }
+  .menu .tooltip{
+    position: absolute;
+    background-color: #fff9f9;
+    color: black;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -4px;
+    right: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .menu:hover .tooltip{
+    opacity: 1;
+  }
+  
+  
+}
+
+@media(min-width: 550px) and (max-width: 960px){
+  .header{
+    height: 67.675px;
+    background-color: white;
+    box-shadow: 2px 1px 2px rgb(238, 238, 238);
+    
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    
+    
+    font-family: inter, serif;
+    font-size: 16px;
+  }
+  .used-header{
+    height: 67.675px;
+    display: flex;
+    flex: 1;
+    
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+  }
+  .left-section{
+    display: flex;
+    
+    flex: 1;
+    align-items: center;
+    
+  }
+  .logo{
+    
+    max-width: 100%;
+    max-height: 19.7px;
+    width: 150px;
+    cursor: pointer;
+    
+  }
+  .right-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .right-section a{
+    
+    font-size: 0px;
+  }
+  
+  
+  
+  .mb{
+    width: 25px;
+    height: 2px;
+    transition: 0.25s;
+    background-color: rgb(66, 66, 66);
+    margin: 2.789px 0;
+    transition: 0.25s;
+  }
+  .menu{
+    padding-left: 15px;
+    justify-content: center;
+    cursor: pointer;
+    display: flex ;
+    
+    flex-direction: column;
+  }
+  .menu .tooltip{
+    position: absolute;
+    background-color: #fff9f9;
+    color: black;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -4px;
+    right: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .menu:hover .tooltip{
+    opacity: 1;
+  }
+  
+  
+}
+@media(max-width: 550px){
+  .header{
+    height: 67.675px;
+    background-color: white;
+    box-shadow: 2px 1px 2px rgb(238, 238, 238);
+    
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    
+    
+    font-family: inter, serif;
+    font-size: 16px;
+  }
+  .used-header{
+    height: 67.675px;
+    display: flex;
+    flex: 1;
+    
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+  }
+  .left-section{
+    display: flex;
+    
+    flex: 1;
+    align-items: center;
+    
+  }
+  .logo{
+    
+    max-width: 100%;
+    max-height: 14.4375px;
+    width: 110px;
+    cursor: pointer;
+    
+  }
+  .right-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .right-section a{
+    
+    font-size: 0px;
+  }
+  
+  
+  
+  .mb{
+    width: 25px;
+    height: 2px;
+    background-color: rgb(66, 66, 66);
+    margin: 2.789px 0;
+  }
+  .menu{
+    padding-left: 15px;
+    justify-content: center;
+    cursor: pointer;
+    display: flex ;
+    
+    flex-direction: column;
+  }
+  .menu .tooltip{
+    position: absolute;
+    background-color: #fff9f9;
+    color: black;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -4px;
+    right: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .menu:hover .tooltip{
+    opacity: 1;
+  }
+}
